@@ -3,8 +3,8 @@ model: lkan.models.KAN
 logger: lkan.loggers.TensorBoardLogger
 logger_params: {}
 model_params:
-  layers_dims: [2,5,1]
-  grid_size: 3
+  layers_dims: [784,11,2]
+  grid_size: 5
   k: 3
   noise_scale: 0.1
   noise_scale_base: 0.1
