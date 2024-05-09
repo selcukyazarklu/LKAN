@@ -23,6 +23,7 @@ datamodule: lkan.datamodule.TestDataModule
 datamodule_params:
   batch_size: 16
   split_ratio: 0.8
+  input_size: 28
 save_dir: ./.experiments/${name}/${version}
 name: basic_mlp
 version: v1
