@@ -3,7 +3,7 @@ model: lkan.models.MLP
 logger: lkan.loggers.TensorBoardLogger
 logger_params: {}
 model_params:
-  layers_dims: [2,5,1]
+  layers_dims: [784,128,2]
   device: ${trainer_params.device}
 trainer: lkan.trainers.BasicMLPTrainer
 trainer_params:
